@@ -50,20 +50,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# Exclude all files at the root of the repo
-/*
+# Ignore build directories
+bin/
+obj/
 
-# Include all directories at the root of the repo
-!*/
-
-# Include project directory
-![Ee]legant[Cc]offee[Ii]mplementation/
-
-# Ignore files in project directory except bin and obj
-[Ee]legant[Cc]offee[Ii]mplementation/*
-![Ee]legant[Cc]offee[Ii]mplementation/[Bb]in/
-![Ee]legant[Cc]offee[Ii]mplementation/[Oo]bj/
-
-# Other common files to ignore
-*.log
-*.DS_Store
+# Ignore published files
+wwwroot/
